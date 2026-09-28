@@ -1041,7 +1041,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/predict-risk",
+  "https://ner-resq-backend.onrender.com/predict-risk",
         {
           method: "POST",
           headers: {
